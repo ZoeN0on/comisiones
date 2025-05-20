@@ -1,0 +1,143 @@
+/* Reset y estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #ffc5d3;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.8rem;
+    margin: 0 20px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+/* Navegación */
+nav {
+    margin-left: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #388e3c;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #2e7030;
+    transform: scale(1.1);
+}
+
+.menu a.activo {
+    background-color: #2b6629;
+}
+
+/* Contenido principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #333;
+}
+
+/* Títulos secciones */
+h2 {
+    font-size: 1.8rem;
+    font-family: 'Times New Roman', serif;
+    border-bottom: 2px solid #ffc5d3;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Imagen tabla de precios */
+.imagen-precios img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Cuadro reglas */
+.cuadro-reglas {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.puedo, .no-puedo {
+    flex: 1 1 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.puedo h3, .no-puedo h3 {
+    margin-top: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #EA899A;
+    margin-top: 60px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
